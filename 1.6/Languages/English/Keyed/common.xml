@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <MixedHunterAttacks.LoadingLabel>Loading Mixed Manhunter Attacks ...</MixedHunterAttacks.LoadingLabel>
+    <MixedHunterAttacks.SettingsTitle>Mixed Manhunter Attacks</MixedHunterAttacks.SettingsTitle>
+    <MixedHunterAttacks.MixedAttackChanceLabel>Mixed attack chance: {0}%</MixedHunterAttacks.MixedAttackChanceLabel>
+    <MixedHunterAttacks.MixedAttackChanceTooltip>Controls the chance that a vanilla manhunter pack becomes a mixed-species Scaria attack. Set to 0% for vanilla behavior.</MixedHunterAttacks.MixedAttackChanceTooltip>
+    <MixedHunterAttacks.MixedAttackChanceDescription>At 100%, manhunter packs always try to use mixed species. At 0%, vanilla single-species packs are used.</MixedHunterAttacks.MixedAttackChanceDescription>
+    <MixedHunterAttacks.ManhunterPackArrivedMixed>A mixed pack of manhunting animals has entered the area. The group includes {0} and other animals, all driven mad by Scaria.</MixedHunterAttacks.ManhunterPackArrivedMixed>
+</LanguageData>
