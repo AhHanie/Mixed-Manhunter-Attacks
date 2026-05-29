@@ -20,6 +20,11 @@ namespace Mixed_Manhunter_Attacks.Patches
                 return true;
             }
 
+            if (IsQuestIncident(parms) && !ModSettings.AllowQuestOverrides)
+            {
+                return true;
+            }
+
             Map map = parms.target as Map;
             if (map == null)
             {
@@ -33,6 +38,11 @@ namespace Mixed_Manhunter_Attacks.Patches
 
             __result = result;
             return false;
+        }
+
+        private static bool IsQuestIncident(IncidentParms parms)
+        {
+            return parms.quest != null || !parms.questTag.NullOrEmpty();
         }
 
         private static bool TryExecuteMixed(IncidentWorker_AggressiveAnimals worker, IncidentParms parms, Map map, out bool result)

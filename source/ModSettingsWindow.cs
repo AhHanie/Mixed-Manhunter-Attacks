@@ -18,6 +18,13 @@ namespace Mixed_Manhunter_Attacks
 
             listing.Gap(4f);
             listing.Label("MixedHunterAttacks.MixedAttackChanceDescription".Translate());
+            listing.Gap(12f);
+
+            listing.CheckboxLabeled(
+                "MixedHunterAttacks.AllowQuestOverridesLabel".Translate().ToString(),
+                ref ModSettings.AllowQuestOverrides,
+                "MixedHunterAttacks.AllowQuestOverridesTooltip".Translate().ToString());
+
             listing.End();
         }
     }
